@@ -56,10 +56,10 @@ a {
 button {
     background-color: #3882f6;
     border: none;
-    padding: 6px 16px;
+    padding: 6px 30px;
     border-radius: 8px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .image {
@@ -70,4 +70,89 @@ button {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.blue-border {
+    border-color: #3882f6;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.caption {
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.quote-container {
+    background-color: #E5E7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.person {
+    font-weight: bold;
+    text-align: end;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+    margin: 100px 200px;
+    border-radius: 5px;
+}
+
+.invert {
+    border-color: #f9faf8;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-weight: 500;
 }
